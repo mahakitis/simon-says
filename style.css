@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.btn{
+    height: 200px;
+    width : 200px;
+    border-radius: 18%;
+    /* border: 5px solid black; */
+    margin : 2rem;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center; 
+    margin-top: 2.5rem;
+}
+
+ .yellow{
+    background-color: yellowgreen;
+    box-shadow: 0 0 30px yellowgreen;
+}
+.blue{
+    background-color: skyblue;
+    box-shadow: 0 0 30px skyblue;
+}
+.purple{
+    background-color: blueviolet;
+    box-shadow: 0 0 30px blueviolet;
+}
+.pink{
+    background-color: palevioletred;
+    box-shadow: 0 0 30px palevioletred;
+}
+.flash{
+    background-color: azure;
+}
+
+.userflash{
+    background-color: black;
+}
